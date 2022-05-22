@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+section{
+    background: #f3f3f3;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 1280px;
+    margin: auto;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.container-title{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.container-title h3{
+     font-weight: 300;
+     font-size: 30px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.container-title p{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: rgba(8, 7, 7, 0.539);
+    max-width: 400px;
+    line-height: 20px;
+    
+}
+.container-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+.container-box>div{
+     width: 32%;
+     background: white;
+     -webkit-box-shadow: 6px 6px 23px -4px rgba(0,0,0,0.41); 
+     box-shadow: 6px 6px 23px -4px rgba(0,0,0,0.41);
+     padding: 15px 25px;
+     box-sizing: border-box;
+     text-align: center;
+}
+.container-box>div h4{
+    font-weight: 300;
+
+}
+.container-box>div p{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.container-box>div hr{
+    border-top: none;
+    border-bottom: solid 1px #0000001a;
+}
+.container-box>div hr ~p{
+    color: rgba(8, 7, 7, 0.539);
+    font-size: 15px;
+}
+.container-box>div button{
+     background: #fe6c39;
+     color: white;
+     border: none;
+     text-transform: uppercase;
+     padding: 5px 20px;
+     font-weight: 100;
+     font-size: 12px;
+     margin-top: 15px;
+     margin-bottom: 20px;
+     border-radius: 2px;
+}
+@media (max-width:767px){
+    .container-box{
+        display: block;  
+    }
+    .container-box>div{
+        width: 100%;
+        margin-bottom: 15px;
+   }
+}
