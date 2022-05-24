@@ -90,7 +90,7 @@ a{
     font-weight: 100;
     font-size: 20px;
     margin-left: 20px;
-    color: rgb(109, 106, 106)S;
+    color: rgb(109, 106, 106);
        
 }
 .digital__first-child>img{
@@ -136,6 +136,99 @@ a{
     margin-bottom: 15px;
     
 }
+#second-section{
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+.beautiful-design_title{
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+.beautiful-design_title h2{
+     font-size: 30px;
+     font-weight: 100;
+     color: rgb(45, 43, 43);
+}
+.beautiful-design_title p{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 100px;
+     font-size: 15px; 
+     color: rgb(106, 102, 102);
+}
+.beautiful-design_info{
+    display: block;   
+}
+.beautiful-design_info_first{
+    display: flex;
+}
+.design{
+    font-size: 15px;
+    color: rgb(45, 43, 43);
+    margin-right: 50px;
+}
+.material-icons.orange{
+    display: flex;
+    justify-content: center;
+    color: #fe6c39;
+    font-weight: 200;
+    font-size: 50px;
+    margin-right: 80px;
+}
+.beautiful__title{
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(16, 15, 15);
+}
+.beautiful__text{
+    color:rgb(141, 136, 136);
+    line-height: 25px;
+    
+}
+.development{
+    font-size: 15px;
+    color: rgb(45, 43, 43);
+    margin-right: 50px;
+
+}
+.branding{
+    font-size: 15px;
+    color: rgb(45, 43, 43);
+    margin-right: 50px;
+
+}
+.beautiful-design_info_second{
+    display: flex;
+    
+}
+.advertising{
+    font-size: 15px;
+    color: rgb(45, 43, 43);
+    margin-right: 50px;
+
+}
+.mobile-apps{
+    font-size: 15px;
+    color: rgb(45, 43, 43);
+    margin-right: 50px;
+}
+.strategy{
+    font-size: 15px;
+    color: rgb(45, 43, 43);
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
 .container{
     width: 1280px;
     margin: auto;
