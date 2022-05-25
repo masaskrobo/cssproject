@@ -1,38 +1,24 @@
 body{
     margin: 0;
 }
-section{
-    background: #f3f3f3;
-    overflow: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.background{
+    background-color: hsl(0, 0%, 90%);
 }
-#first-section{
+header{
     background: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 100%;
+    overflow: hidden;   
 }
-
-section{
-    background: #f3f3f3;
-    overflow: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-
-}
-.icons{
-    
+.top-side{
     border-bottom: 1px solid rgb(228, 222, 222);
+    justify-content: space-between; 
     display: flex;
-    justify-content: space-between;
-    
-    
+    margin-bottom: 0px;
 }
 .icons__first-child{
     display: flex;
-   justify-content: space-between;
-   margin-left: 100px;
-  
-   
+    margin-left: 100px; 
+    float: left; 
 }
 .material-icons.phone{
     font-size: 15px;
@@ -55,6 +41,7 @@ section{
 }
 .icons__second-child{
     margin-top: 11px;
+    float: right;
 }
 .material-icons.facebook{
     margin-left: 25px
@@ -62,7 +49,7 @@ section{
 .material-icons.twiter{
     margin-left: 25px;
 }
-.links{
+.bottom-side{
     display: flex;
     justify-content: space-between;
     height: 90px; 
@@ -75,12 +62,14 @@ section{
     margin: 0;
     margin-top: 15px;
     margin-left: 60px;
+    float: left;
 }
 .links__information>ul{
     display: flex; 
     list-style-type: none; 
     margin: 0;
     margin-top: 30px;
+    float: right;
 }
 
 a{
@@ -144,6 +133,7 @@ a{
     text-align: center;
     margin: 0;
     padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .beautiful-design_title h2{
      font-size: 30px;
@@ -153,9 +143,10 @@ a{
 .beautiful-design_title p{
     margin: 0;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
      font-size: 15px; 
      color: rgb(106, 102, 102);
+     white-space: pre-line;
 }
 .beautiful-design_info{
     display: block;   
@@ -183,6 +174,7 @@ a{
     font-size: 20px;
     font-weight: 100;
     color: rgb(16, 15, 15);
+    
 }
 .beautiful__text{
     color:rgb(141, 136, 136);
@@ -221,6 +213,43 @@ a{
     color: rgb(45, 43, 43);
     margin-right: 50px;
 }
+.laptop_images{
+    display: block;
+    
+}
+.top__images{
+   display: flex;
+   
+}
+.image_1{
+    margin-right: 50px;
+    margin-bottom: 0px;
+    height: 250px;
+    
+}
+.laptop_images_title{
+    background: white;
+    padding: 25px;
+    margin-top: -3px;
+    margin-right: 50px;
+    text-align: center;
+    color: rgb(58, 56, 56);
+    font-size: 20px;
+    font-weight: 100; 
+    -webkit-box-shadow: 6px 6px 23px -4px rgba(143, 140, 140, 0.41); 
+    box-shadow: 6px 6px 23px -4px rgba(143, 140, 140, 0.41);
+
+}
+
+
+.bottom__images{
+    display: flex;
+    
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
+
 
 
 
