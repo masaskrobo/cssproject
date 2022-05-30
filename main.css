@@ -146,7 +146,8 @@ a{
     margin-bottom: 70px;
      font-size: 15px; 
      color: rgb(106, 102, 102);
-     white-space: pre-line;
+    white-space: pre-line;
+   
 }
 .beautiful-design_info{
     display: block;   
@@ -251,7 +252,8 @@ a{
 }
 .pictures_of_people{
      display: flex;
-     font-family: Verdana, Geneva, Tahoma, sans-serif
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-bottom: 50px;
 }
 .picture{
     border-radius: 50%;
@@ -375,6 +377,55 @@ a{
      margin-bottom: 20px;
      border-radius: 2px;
 }
+.text_and_photo{
+    display: flex;
+    justify-content:space-around;
+}
+.material-icons.notch{
+    color: gray;
+    font-weight: 400;
+}
+.text_first p{
+    text-align: center;
+    color: rgb(113, 110, 110);
+    white-space: inherit;
+   font-size: 18px;
+   margin-bottom: 40px;
+}
+.photo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 32px;
+    
+    
+}
+.photo_first h2{
+     color: rgb(13, 13, 13);
+     font-weight: bold;
+     font-size: 20px;
+     text-align: center;
+     display: inline-block;
+     vertical-align:top;
+
+     
+}
+.photo_first h3{
+      color: rgb(16, 15, 15);
+      font-weight: 200;
+      font-size: 18px;
+      
+      
+     
+     
+}
+.text_and_photo_second{
+     margin-left: 25px;
+     margin-right: 25px;
+}
+
+
+
 @media (max-width:767px){
     .container-box{
         display: block;  
