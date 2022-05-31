@@ -380,11 +380,21 @@ a{
 .text_and_photo{
     display: flex;
     justify-content:space-around;
+    margin-bottom: 100px;
+}
+.text_first{
+    position: relative;
 }
 .material-icons.notch{
     color: gray;
     font-weight: 400;
+    position: absolute;
+    top: -10;
+    left: -10;
+    
 }
+
+
 .text_first p{
     text-align: center;
     color: rgb(113, 110, 110);
@@ -400,28 +410,69 @@ a{
     
     
 }
-.photo_first h2{
+.photo_first{
+    display: flex;
+}
+.text_1{
+    margin-left: 20px;
+}
+.text_1 h2{
      color: rgb(13, 13, 13);
      font-weight: bold;
      font-size: 20px;
      text-align: center;
      display: inline-block;
      vertical-align:top;
-
-     
 }
-.photo_first h3{
+.text_1 h3{
       color: rgb(16, 15, 15);
       font-weight: 200;
-      font-size: 18px;
-      
-      
-     
-     
+      font-size: 18px;  
+      margin-top: -10px;
+       
 }
+
 .text_and_photo_second{
      margin-left: 25px;
      margin-right: 25px;
+ }
+ .lets_create{
+     text-align: center;
+     margin: 0;
+     padding-top: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .lets_create h2{
+     font-size: 30px;
+     font-weight: 100;
+     color: rgb(45, 43, 43);
+     margin-top: 60px;
+    }
+ .lets_create p{
+     margin: 0;
+     margin-top: 10px;
+     margin-bottom: 70px;
+     font-size: 15px; 
+     color: rgb(106, 102, 102);
+     white-space: pre-line;
+     margin-bottom: 30px;
+      
+    }
+    
+.div_button button{
+    background: #fe6c39;
+    color: white;
+    font-size: 20;
+    font-weight: 100;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-left: 550px;
+    margin-bottom: 80px;
+    
+   
 }
 
 
