@@ -15,10 +15,14 @@ header{
     display: flex;
     margin-bottom: 0px;
 }
+.container.top-side-holder{
+    display: flex;
+}
 .icons__first-child{
     display: flex;
-    margin-left: 100px; 
-    float: left; 
+    
+    
+    
 }
 .material-icons.phone{
     font-size: 15px;
@@ -41,7 +45,9 @@ header{
 }
 .icons__second-child{
     margin-top: 11px;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 20px;
 }
 .material-icons.facebook{
     margin-left: 25px
